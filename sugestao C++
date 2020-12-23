@@ -1,0 +1,27 @@
+/****************************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+               
+Algoritmo que peça ao usuário a quantia em dinheiro que tem sobrando e sugira, caso
+ele tenha 30 ou mais reais, que vá ao cinema, e se não tiver, fique em casa vendo TV.
+*****************************************************************************************/
+
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+
+int main()
+{
+    int dinheiro;
+    cout<<"Informe a quantidade de dinheiro sobrando:" <<endl;
+    cin >> dinheiro;
+    {if (dinheiro>=30)
+    cout<<"vá ao cinema!" <<endl;
+    else
+    cout<<"Fique em casa vendo TV!" <<endl;
+}
+    return 0;
+}
